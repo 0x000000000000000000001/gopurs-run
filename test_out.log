@@ -1,0 +1,710 @@
+=== Building project with spago ===
+Reading Spago workspace configuration...
+
+✓ Selecting package to build: run
+
+Downloading dependencies...
+No lockfile found, generating it...
+Lockfile written to spago.lock. Please commit this file.
+Building...
+[  5 of 266] Compiling Spago.Generated.BuildInfo
+[  1 of 266] Compiling Type.Function
+[  3 of 266] Compiling Unsafe.Coerce
+[  2 of 266] Compiling Type.Row
+[  4 of 266] Compiling Type.Proxy
+[  7 of 266] Compiling Type.Equality
+[  6 of 266] Compiling Record.Unsafe
+[  8 of 266] Compiling Data.Void
+[  9 of 266] Compiling Data.Unit
+[ 10 of 266] Compiling Data.Traversable.Accum
+[ 11 of 266] Compiling Partial
+[ 12 of 266] Compiling Data.Int.Bits
+[ 13 of 266] Compiling Data.NaturalTransformation
+[ 14 of 266] Compiling Data.Boolean
+[ 15 of 266] Compiling Control.Semigroupoid
+[ 16 of 266] Compiling Control.Lazy
+[ 18 of 266] Compiling Data.Symbol
+[ 19 of 266] Compiling Partial.Unsafe
+[ 17 of 266] Compiling Data.Function.Uncurried
+[ 20 of 266] Compiling Type.Data.Boolean
+[ 21 of 266] Compiling Safe.Coerce
+[ 22 of 266] Compiling Data.Exists
+[ 23 of 266] Compiling Control.Category
+[ 24 of 266] Compiling Data.Semigroup
+[ 26 of 266] Compiling Data.HeytingAlgebra
+[ 25 of 266] Compiling Data.Semiring
+[ 27 of 266] Compiling Record.Unsafe.Union
+[ 28 of 266] Compiling Data.Show
+[ 29 of 266] Compiling Data.Ring
+[ 30 of 266] Compiling Data.Generic.Rep
+[ 32 of 266] Compiling Data.BooleanAlgebra
+[ 31 of 266] Compiling Data.Eq
+[ 33 of 266] Compiling Data.CommutativeRing
+[ 34 of 266] Compiling Data.Ordering
+[ 35 of 266] Compiling Data.EuclideanRing
+[ 37 of 266] Compiling Data.Ord
+[ 36 of 266] Compiling Type.Data.Ordering
+[ 38 of 266] Compiling Data.DivisionRing
+[ 39 of 266] Compiling Data.Field
+[ 40 of 266] Compiling Type.Data.Symbol
+[ 41 of 266] Compiling Type.RowList
+[ 43 of 266] Compiling Type.Prelude
+[ 42 of 266] Compiling Type.Row.Homogeneous
+[ 44 of 266] Compiling Data.Reflectable
+[ 45 of 266] Compiling Data.Bounded
+[ 46 of 266] Compiling Data.Monoid
+[ 47 of 266] Compiling Data.Function
+[ 48 of 266] Compiling Data.Functor
+[ 49 of 266] Compiling Data.Bounded.Generic
+[ 50 of 266] Compiling Data.Monoid.Generic
+[ 52 of 266] Compiling Control.Alt
+[ 53 of 266] Compiling Control.Extend
+[ 51 of 266] Compiling Control.Apply
+[ 54 of 266] Compiling Control.Plus
+[ 55 of 266] Compiling Control.Comonad
+[ 56 of 266] Compiling Control.Applicative
+[ 57 of 266] Compiling Control.Alternative
+[ 58 of 266] Compiling Control.Bind
+[ 59 of 266] Compiling Control.Monad
+[ 60 of 266] Compiling Prelude
+[ 61 of 266] Compiling Control.MonadPlus
+[ 62 of 266] Compiling Data.Monoid.Dual
+[ 63 of 266] Compiling Data.Monoid.Additive
+[ 64 of 266] Compiling Data.Semigroup.Last
+[ 65 of 266] Compiling Data.Eq.Generic
+[ 66 of 266] Compiling Data.Monoid.Disj
+[ 67 of 266] Compiling Control.Monad.Trans.Class
+[ 68 of 266] Compiling Data.Monoid.Multiplicative
+[ 69 of 266] Compiling Data.Monoid.Endo
+[ 70 of 266] Compiling Data.Ord.Generic
+[ 71 of 266] Compiling Data.Show.Generic
+[ 72 of 266] Compiling Control.Monad.Reader.Class
+[ 73 of 266] Compiling Data.Number.Format
+[ 74 of 266] Compiling Data.HeytingAlgebra.Generic
+[ 75 of 266] Compiling Data.Traversable.Accum.Internal
+[ 76 of 266] Compiling Record
+[ 77 of 266] Compiling Control.Monad.Cont.Class
+[ 78 of 266] Compiling Control.Monad.Gen.Class
+[ 79 of 266] Compiling Data.Monoid.Conj
+[ 80 of 266] Compiling Data.Semigroup.Generic
+[ 81 of 266] Compiling Effect
+[ 82 of 266] Compiling Run.Internal
+[ 84 of 266] Compiling Data.Ring.Generic
+[ 85 of 266] Compiling Data.Semigroup.First
+[ 86 of 266] Compiling Data.Semiring.Generic
+[ 83 of 266] Compiling Record.Builder
+[ 87 of 266] Compiling Data.Yoneda
+[ 88 of 266] Compiling Effect.Class
+[ 89 of 266] Compiling Effect.Ref
+[ 91 of 266] Compiling Effect.Unsafe
+[ 90 of 266] Compiling Effect.Uncurried
+[ 92 of 266] Compiling Effect.Console
+[ 93 of 266] Compiling Data.Newtype
+[ 94 of 266] Compiling Test.Assert
+[ 95 of 266] Compiling Effect.Class.Console
+[ 96 of 266] Compiling Data.Time.Duration
+[ 98 of 266] Compiling Data.Ord.Min
+[ 97 of 266] Compiling Data.Profunctor
+[ 99 of 266] Compiling Data.Monoid.Alternate
+[100 of 266] Compiling Data.Ord.Max
+[101 of 266] Compiling Data.Ord.Down
+[102 of 266] Compiling Data.Functor.App
+[103 of 266] Compiling Data.Profunctor.Closed
+[104 of 266] Compiling Data.Functor.Invariant
+[105 of 266] Compiling Data.Functor.Compose
+[106 of 266] Compiling Data.Maybe
+[107 of 266] Compiling Data.Tuple
+[108 of 266] Compiling Data.Identity
+[110 of 266] Compiling Data.Const
+[109 of 266] Compiling Data.Profunctor.Split
+[111 of 266] Compiling Data.Profunctor.Join
+[112 of 266] Compiling Data.Functor.Contravariant
+[113 of 266] Compiling Data.Predicate
+[114 of 266] Compiling Data.Op
+[115 of 266] Compiling Data.Comparison
+[116 of 266] Compiling Data.Equivalence
+[117 of 266] Compiling Data.Either
+[118 of 266] Compiling Data.Number
+[119 of 266] Compiling Data.Maybe.First
+[120 of 266] Compiling Data.Maybe.Last
+[121 of 266] Compiling Data.Number.Approximate
+[122 of 266] Compiling Data.Int
+[123 of 266] Compiling Data.Divide
+[124 of 266] Compiling Data.Profunctor.Strong
+[126 of 266] Compiling Data.Distributive
+[125 of 266] Compiling Control.Monad.State.Class
+[127 of 266] Compiling Data.Profunctor.Costrong
+[128 of 266] Compiling Control.Monad.Writer.Class
+[129 of 266] Compiling Data.Tuple.Nested
+[130 of 266] Compiling Data.Divisible
+[131 of 266] Compiling Performance.Minibench
+[132 of 266] Compiling Data.Decide
+[133 of 266] Compiling Data.Bifunctor
+[135 of 266] Compiling Data.Profunctor.Choice
+[136 of 266] Compiling Effect.Exception
+[137 of 266] Compiling Data.Profunctor.Cochoice
+[138 of 266] Compiling Data.Either.Inject
+[134 of 266] Compiling Data.Either.Nested
+[139 of 266] Compiling Effect.Exception.Unsafe
+[140 of 266] Compiling Control.Monad.Error.Class
+[141 of 266] Compiling Data.Functor.Product
+[142 of 266] Compiling Data.Functor.Coproduct
+[143 of 266] Compiling Control.Biapply
+[144 of 266] Compiling Data.Profunctor.Star
+[145 of 266] Compiling Data.Functor.Costar
+[146 of 266] Compiling Control.Monad.Rec.Class
+[147 of 266] Compiling Data.Decidable
+[148 of 266] Compiling Control.Biapplicative
+[149 of 266] Compiling Data.Bifunctor.Join
+[151 of 266] Compiling Data.Functor.Product2
+[150 of 266] Compiling Data.Functor.Clown
+[152 of 266] Compiling Data.Functor.Flip
+[153 of 266] Compiling Data.Functor.Joker
+[154 of 266] Compiling Data.Functor.Product.Nested
+[156 of 266] Compiling Data.Functor.Coproduct.Inject
+[155 of 266] Compiling Data.Foldable
+[157 of 266] Compiling Data.FunctorWithIndex
+[158 of 266] Compiling Data.Functor.Coproduct.Nested
+[159 of 266] Compiling Control.Monad.ST.Internal
+[160 of 266] Compiling Control.Monad.ST.Uncurried
+[161 of 266] Compiling Control.Monad.ST.Ref
+[162 of 266] Compiling Control.Monad.ST
+[163 of 266] Compiling Control.Monad.ST.Global
+[164 of 266] Compiling Control.Monad.ST.Class
+[165 of 266] Compiling Control.Monad.Cont.Trans
+[167 of 266] Compiling Control.Monad.Maybe.Trans
+[166 of 266] Compiling Control.Monad.RWS.Trans
+[168 of 266] Compiling Control.Monad.Except.Trans
+[169 of 266] Compiling Control.Monad.Reader.Trans
+[170 of 266] Compiling Control.Monad.State.Trans
+[171 of 266] Compiling Data.Array.ST
+[172 of 266] Compiling Control.Monad.Writer.Trans
+[174 of 266] Compiling Data.Array.ST.Partial
+[173 of 266] Compiling Data.Array.ST.Iterator
+[175 of 266] Compiling Control.Monad.Cont
+[176 of 266] Compiling Control.Monad.Reader
+[177 of 266] Compiling Control.Monad.Except
+[178 of 266] Compiling Control.Monad.State
+[179 of 266] Compiling Control.Parallel.Class
+[180 of 266] Compiling Control.Monad.Writer
+[181 of 266] Compiling Control.Monad.RWS
+[182 of 266] Compiling Data.Bifoldable
+[183 of 266] Compiling Data.Semigroup.Foldable
+[184 of 266] Compiling Data.Traversable
+[185 of 266] Compiling Data.FoldableWithIndex
+[186 of 266] Compiling Data.Semigroup.Traversable
+[187 of 266] Compiling Data.Bitraversable
+[188 of 266] Compiling Control.Parallel
+[189 of 266] Compiling Control.Monad.Identity.Trans
+[190 of 266] Compiling Effect.Aff
+[192 of 266] Compiling Data.Coyoneda
+[191 of 266] Compiling Data.Unfoldable1
+[193 of 266] Compiling Data.TraversableWithIndex
+[194 of 266] Compiling Control.Comonad.Trans.Class
+[195 of 266] Compiling Control.Comonad.Traced.Trans
+[196 of 266] Compiling Control.Comonad.Store.Trans
+[197 of 266] Compiling Data.Unfoldable
+[198 of 266] Compiling Data.Enum
+[199 of 266] Compiling Control.Monad.Gen
+[200 of 266] Compiling Data.NonEmpty
+[201 of 266] Compiling Data.Lazy
+[203 of 266] Compiling Data.Array.NonEmpty.Internal
+[202 of 266] Compiling Control.Comonad.Env.Trans
+[204 of 266] Compiling Data.Time.Duration.Gen
+[205 of 266] Compiling Effect.Aff.Compat
+[206 of 266] Compiling Data.Array
+[207 of 266] Compiling Control.Comonad.Store.Class
+[208 of 266] Compiling Data.Date.Component
+[209 of 266] Compiling Data.Time.Component
+[210 of 266] Compiling Data.Enum.Generic
+[211 of 266] Compiling Control.Monad.List.Trans
+[213 of 266] Compiling Data.Enum.Gen
+[212 of 266] Compiling Data.List.Types
+[214 of 266] Compiling Data.List.Lazy.Types
+[215 of 266] Compiling Control.Monad.Gen.Common
+[216 of 266] Compiling Control.Comonad.Store
+[217 of 266] Compiling Control.Comonad.Env.Class
+[219 of 266] Compiling Data.Time.Component.Gen
+[218 of 266] Compiling Data.Time
+[220 of 266] Compiling Control.Comonad.Env
+[221 of 266] Compiling Control.Comonad.Traced.Class
+[223 of 266] Compiling Data.Date.Component.Gen
+[222 of 266] Compiling Data.Date
+[224 of 266] Compiling Control.Comonad.Traced
+[225 of 266] Compiling Data.Time.Gen
+[226 of 266] Compiling Data.Array.Partial
+[227 of 266] Compiling Data.Array.NonEmpty
+[228 of 266] Compiling Data.Date.Gen
+[229 of 266] Compiling Data.DateTime
+[230 of 266] Compiling Effect.Aff.Class
+[231 of 266] Compiling Data.List.Internal
+[232 of 266] Compiling Data.DateTime.Gen
+[233 of 266] Compiling Data.DateTime.Instant
+[235 of 266] Compiling Data.List.Lazy
+[234 of 266] Compiling Data.List
+[237 of 266] Compiling Data.List.ZipList
+[236 of 266] Compiling Data.List.Lazy.NonEmpty
+[239 of 266] Compiling Data.List.Partial
+[240 of 266] Compiling Data.Variant.Internal
+[242 of 266] Compiling Data.CatQueue
+[241 of 266] Compiling Data.List.NonEmpty
+[238 of 266] Compiling Data.Map.Internal
+[243 of 266] Compiling Data.CatList
+[244 of 266] Compiling Data.Variant
+[245 of 266] Compiling Data.Functor.Variant
+[246 of 266] Compiling Control.Monad.Free
+[247 of 266] Compiling Control.Monad.Trampoline
+[248 of 266] Compiling Control.Comonad.Cofree
+[250 of 266] Compiling Control.Monad.Free.Class
+[249 of 266] Compiling Run
+[251 of 266] Compiling Test.Examples
+[252 of 266] Compiling Run.Writer
+[253 of 266] Compiling Run.Reader
+[254 of 266] Compiling Run.Choose
+[255 of 266] Compiling Run.Except
+[256 of 266] Compiling Run.State
+[257 of 266] Compiling Control.Comonad.Cofree.Class
+[258 of 266] Compiling Test.Bench
+[259 of 266] Compiling Data.Set
+[260 of 266] Compiling Test.Main
+[262 of 266] Compiling Data.Map
+[261 of 266] Compiling Data.Set.NonEmpty
+[264 of 266] Compiling Data.Map.Gen
+[263 of 266] Compiling Data.Interval.Duration
+[265 of 266] Compiling Data.Interval
+[266 of 266] Compiling Data.Interval.Duration.Iso
+[WARNING 1/8 UnusedFFIImplementations] ../gopurs-aff/src/Effect/Aff.purs:1:1
+
+       v
+    1  module Effect.Aff
+    2    ( Aff
+    3    , Fiber
+       ...
+  399      , onComplete: _onCompleteFiber nf
+  400      , isSuspended: _isSuspendedFiber nf
+  401      }
+           ^
+
+  The following definitions in the foreign module for module Effect.Aff are unused:
+    _fork
+    _makeFiber
+
+[WARNING 2/8 UnusedFFIImplementations] ../gopurs-st/src/Control/Monad/ST/Uncurried.purs:17:1
+
+      v
+  17  module Control.Monad.ST.Uncurried where
+  18  
+  19  import Control.Monad.ST.Internal (ST, Region)
+      ...
+  97    STFn8 a b c d e f g h t r -> a -> b -> c -> d -> e -> f -> g -> h -> ST t r
+  98  foreign import runSTFn9 :: forall a b c d e f g h i t r.
+  99    STFn9 a b c d e f g h i t r -> a -> b -> c -> d -> e -> f -> g -> h -> i -> ST t r
+                                                                                         ^
+
+  The following definitions in the foreign module for module Control.Monad.ST.Uncurried are unused:
+    mkSTFn10
+    runSTFn10
+
+[WARNING 3/8 UnusedName] test/Examples.purs:96:5
+
+  96      bill <- checkPlease
+          ^^^^
+
+  Name bill was introduced but not used.
+  in value declaration dinnerTime
+
+[WARNING 4/8 UnusedName] test/Main.purs:48:32
+
+  48    for_ (Array.range 1 100000) \n -> do
+                                     ^
+
+  Name n was introduced but not used.
+  in value declaration program2
+
+[WARNING 5/8 UnusedName] test/Main.purs:86:39
+
+  86    whileM_ mb ma = flip tailRecM unit \a ->
+                                            ^
+
+  Name a was introduced but not used.
+  in value declaration yesProgram
+
+[WARNING 6/8 UnusedName] test/Main.purs:147:5
+
+  147      tco1 = stateTCO # runState 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  Name tco1 was introduced but not used.
+  in value declaration main
+
+[WARNING 7/8 UnusedName] test/Main.purs:148:5
+
+  148      tco2 = writerTCO # runWriter
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  Name tco2 was introduced but not used.
+  in value declaration main
+
+[WARNING 8/8 UnusedName] test/Main.purs:149:5
+
+  149      tco3 = readerTCO # runReader unit
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  Name tco3 was introduced but not used.
+  in value declaration main
+
+           Src   Lib   All
+Warnings     6     2     8
+Errors       0     0     0
+
+✓ Build succeeded.
+
+=== Generating Go code with gopurs ===
+=== Compiling and running Go test binary ===
+(Left "Not 12")
+(Tuple "Hello" (Left "Not 12"))
+(Right (Tuple "World" 12))
+Done
+fatal error: slice bounds out of range
+
+goroutine 1 gp=0x7976f6bde1e0 m=6 mp=0x7976f6d5f008 [running]:
+runtime.throw({0x104bcdaf9?, 0x104b027b4?})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/panic.go:1229 +0x38 fp=0x7976f6d5ad10 sp=0x7976f6d5ace0 pc=0x104b38838
+runtime.panicCheck1(0x7976f6d5adc8?, {0x104bcdaf9, 0x19})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/panic.go:59 +0xa4 fp=0x7976f6d5ad30 sp=0x7976f6d5ad10 pc=0x104b02704
+runtime.panicBounds64(0x104b320bc, 0x7976f6d5ada8)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/panic.go:220 +0x110 fp=0x7976f6d5ad90 sp=0x7976f6d5ad30 pc=0x104b028a0
+runtime.panicBounds()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1770 +0x38 fp=0x7976f6d5ae30 sp=0x7976f6d5ad90 pc=0x104b3f4c8
+runtime.rtype.string({0x104ce6958?})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/type.go:35 +0x6c fp=0x7976f6d5ae60 sp=0x7976f6d5ae30 pc=0x104b320bc
+runtime.(*TypeAssertionError).Error(0x7976fca8ce70)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/error.go:53 +0x78 fp=0x7976f6d5af70 sp=0x7976f6d5ae60 pc=0x104ad4ff8
+runtime.preprintpanics(0x7976f6d5b000?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/panic.go:724 +0x15c fp=0x7976f6d5afd0 sp=0x7976f6d5af70 pc=0x104b02f7c
+panic({0x104ce6920?, 0x7976fca8ce70?})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/panic.go:877 +0x154 fp=0x7976f6d5b080 sp=0x7976f6d5afd0 pc=0x104b38574
+runtime.panicdottypeE(0x7976fca8ce10, 0x104cd9740, 0x104ce3700)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/iface.go:275 +0x64 fp=0x7976f6d5b0b0 sp=0x7976f6d5b080 pc=0x104ad8014
+gopurs/output/Control%2eMonad%2eRec%2eClass.Get_monadRecEffect.func1.2.1.1({0x7976f6d5b108?, 0x104acbfdc?, 0x7976f72ac160?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Control.Monad.Rec.Class/Control_Monad_Rec_Class.go:505 +0x70 fp=0x7976f6d5b0e0 sp=0x7976f6d5b0b0 pc=0x104b9c200
+gopurs/output/gopurs_runtime.Apply({0x5, 0x0, 0x0}, {0x7976fca8ce10?, 0x200d5b188?, 0x797712dd6910?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/gopurs_runtime/runtime.go:400 +0x60 fp=0x7976f6d5b130 sp=0x7976f6d5b0e0 pc=0x104b85860
+gopurs/output/Effect.init.func1.1({0x0?, 0x0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:48 +0x64 fp=0x7976f6d5b1a0 sp=0x7976f6d5b130 pc=0x104b99994
+gopurs/output/Effect.BindE(0x10?, 0x7976f6d5b208, {0x7976f6d5b201?, 0x7976fca8ce10?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:10 +0x30 fp=0x7976f6d5b1c0 sp=0x7976f6d5b1a0 pc=0x104b9a470
+gopurs/output/Effect.init.func1({0x104e092d8?, 0x10?, 0x7976feb2f240?}, {0x797712dd68f0?, 0x7976f6d5b2a8?, 0x7976fc656d00?}, {0x10?, 0x104ce3700?, 0x797712dd6900?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:57 +0x68 fp=0x7976f6d5b250 sp=0x7976f6d5b1c0 pc=0x104b99748
+gopurs/output/gopurs_runtime.Apply2.func1({0x10?, 0x104ce3700?, 0x797712dd6900?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/gopurs_runtime/runtime.go:442 +0x4c fp=0x7976f6d5b2b0 sp=0x7976f6d5b250 pc=0x104b869ac
+gopurs/output/gopurs_runtime.Apply({0x7976f6d5b328, 0x0, 0x0}, {0x5?, 0x7976f6d5b388?, 0x797712dd6900?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/gopurs_runtime/runtime.go:400 +0x60 fp=0x7976f6d5b300 sp=0x7976f6d5b2b0 pc=0x104b85860
+gopurs/output/Effect.init.func5.1(...)
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:99
+gopurs/output/Effect.UntilE(...)
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:15
+gopurs/output/Effect.init.func5({0x7976f6d5b388?, 0x104adb618?, 0x7976fc656d40?}, {0x104b9c588?, 0x600d5b3e8?, 0x12beb9c30?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:102 +0x5c fp=0x7976f6d5b360 sp=0x7976f6d5b300 pc=0x104b9a11c
+gopurs/output/gopurs_runtime.Apply.func1({0x7976f6d5f008?, 0x7976fc656d80?, 0x797712dd68f0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/gopurs_runtime/runtime.go:403 +0x44 fp=0x7976f6d5b3a0 sp=0x7976f6d5b360 pc=0x104b86554
+gopurs/output/gopurs_runtime.Apply({0x40, 0x0, 0x0}, {0x12bff97c8?, 0x200d5b498?, 0x797712dd68f0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/gopurs_runtime/runtime.go:400 +0x60 fp=0x7976f6d5b3f0 sp=0x7976f6d5b3a0 pc=0x104b85860
+gopurs/output/Effect.init.func1.1({0x0?, 0x0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:48 +0x64 fp=0x7976f6d5b460 sp=0x7976f6d5b3f0 pc=0x104b99994
+gopurs/output/Effect.BindE(0x10?, 0x7976f6d5b4c8, {0x7976f6d5b501?, 0x104b85860?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:10 +0x30 fp=0x7976f6d5b480 sp=0x7976f6d5b460 pc=0x104b9a470
+gopurs/output/Effect.init.func1({0x0?, 0x3?, 0x7976fca8ce40?}, {0x0?, 0x400000008?, 0x7976feb2f260?}, {0x104e092d8?, 0x20?, 0x797712dd68e0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:57 +0x68 fp=0x7976f6d5b510 sp=0x7976f6d5b480 pc=0x104b99748
+gopurs/output/gopurs_runtime.Apply2.func1({0x20?, 0x104cea940?, 0x797712dd68e0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/gopurs_runtime/runtime.go:442 +0x4c fp=0x7976f6d5b570 sp=0x7976f6d5b510 pc=0x104b869ac
+gopurs/output/gopurs_runtime.Apply({0x7976f6d5b628, 0x0, 0x0}, {0x104cfd7c0?, 0x7976fa868e70?, 0x797712dd68e0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/gopurs_runtime/runtime.go:400 +0x60 fp=0x7976f6d5b5c0 sp=0x7976f6d5b570 pc=0x104b85860
+gopurs/output/Effect.init.func1.2.1({0x0?, 0x0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:53 +0x64 fp=0x7976f6d5b630 sp=0x7976f6d5b5c0 pc=0x104b998e4
+gopurs/output/Effect.BindE(0x10?, 0x7976f6d5b698, {0x7976f6d5b601?, 0x104b3715c?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:11 +0x50 fp=0x7976f6d5b650 sp=0x7976f6d5b630 pc=0x104b9a490
+gopurs/output/Effect.init.func1({0x1ea00572?, 0x1?, 0x7976fc656b80?}, {0x1?, 0x0?, 0x7976feb2f040?}, {0x7976f6d5b738?, 0x104adb618?, 0x797712dd67c0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:57 +0x68 fp=0x7976f6d5b6e0 sp=0x7976f6d5b650 pc=0x104b99748
+gopurs/output/gopurs_runtime.Apply2.func1({0x7976f6d50000?, 0x104bc9836?, 0x797712dd67c0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/gopurs_runtime/runtime.go:442 +0x4c fp=0x7976f6d5b740 sp=0x7976f6d5b6e0 pc=0x104b869ac
+gopurs/output/gopurs_runtime.Apply({0x7976f6d5b7c8, 0x0, 0x0}, {0x104cf7540?, 0x200000000?, 0x797712dd67c0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/gopurs_runtime/runtime.go:400 +0x60 fp=0x7976f6d5b790 sp=0x7976f6d5b740 pc=0x104b85860
+gopurs/output/Effect.init.func1.1({0x0?, 0x0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:48 +0x64 fp=0x7976f6d5b800 sp=0x7976f6d5b790 pc=0x104b99994
+gopurs/output/Effect.BindE(0x10?, 0x7976f6d5b868, {0x104b42b01?, 0x1?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:10 +0x30 fp=0x7976f6d5b820 sp=0x7976f6d5b800 pc=0x104b9a470
+gopurs/output/Effect.init.func1({0x0?, 0x7976f6d185e0?, 0x7976fc656bc0?}, {0x0?, 0x400000001?, 0x104d08630?}, {0x104e092d8?, 0x20?, 0x797712dd67b0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:57 +0x68 fp=0x7976f6d5b8b0 sp=0x7976f6d5b820 pc=0x104b99748
+gopurs/output/gopurs_runtime.Apply2.func1({0x20?, 0x104cea940?, 0x797712dd67b0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/gopurs_runtime/runtime.go:442 +0x4c fp=0x7976f6d5b910 sp=0x7976f6d5b8b0 pc=0x104b869ac
+gopurs/output/gopurs_runtime.Apply({0x7976f6d5b9c8, 0x0, 0x0}, {0x104cfd7c0?, 0x7976f6d52120?, 0x797712dd67b0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/gopurs_runtime/runtime.go:400 +0x60 fp=0x7976f6d5b960 sp=0x7976f6d5b910 pc=0x104b85860
+gopurs/output/Effect.init.func1.2.1({0x0?, 0x0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:53 +0x64 fp=0x7976f6d5b9d0 sp=0x7976f6d5b960 pc=0x104b998e4
+gopurs/output/Effect.BindE(0x10?, 0x7976f6d5ba38, {0x104bc9701?, 0x2?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:11 +0x50 fp=0x7976f6d5b9f0 sp=0x7976f6d5b9d0 pc=0x104b9a490
+gopurs/output/Effect.init.func1({0x1?, 0x2?, 0x7976f6d1f410?}, {0x0?, 0x400000003?, 0x104d08628?}, {0x104e092d8?, 0x20?, 0x7976f6d185f0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:57 +0x68 fp=0x7976f6d5ba80 sp=0x7976f6d5b9f0 pc=0x104b99748
+gopurs/output/gopurs_runtime.Apply2.func1({0x20?, 0x104cea940?, 0x7976f6d185f0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/gopurs_runtime/runtime.go:442 +0x4c fp=0x7976f6d5bae0 sp=0x7976f6d5ba80 pc=0x104b869ac
+gopurs/output/gopurs_runtime.Apply({0x7976f6d5bb98, 0x0, 0x0}, {0x104cfd7c0?, 0x7976f6d520c0?, 0x7976f6d185f0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/gopurs_runtime/runtime.go:400 +0x60 fp=0x7976f6d5bb30 sp=0x7976f6d5bae0 pc=0x104b85860
+gopurs/output/Effect.init.func1.2.1({0x0?, 0x0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:53 +0x64 fp=0x7976f6d5bba0 sp=0x7976f6d5bb30 pc=0x104b998e4
+gopurs/output/Effect.BindE(0x10?, 0x7976f6d5bc08, {0x104bc9701?, 0x2?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:11 +0x50 fp=0x7976f6d5bbc0 sp=0x7976f6d5bba0 pc=0x104b9a490
+gopurs/output/Effect.init.func1({0x1?, 0x2?, 0x7976f6d1ef00?}, {0x0?, 0x400000003?, 0x104d08620?}, {0x104e092d8?, 0x20?, 0x7976f6d183c0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:57 +0x68 fp=0x7976f6d5bc50 sp=0x7976f6d5bbc0 pc=0x104b99748
+gopurs/output/gopurs_runtime.Apply2.func1({0x20?, 0x104cea940?, 0x7976f6d183c0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/gopurs_runtime/runtime.go:442 +0x4c fp=0x7976f6d5bcb0 sp=0x7976f6d5bc50 pc=0x104b869ac
+gopurs/output/gopurs_runtime.Apply({0x7976f6d5bd68, 0x0, 0x0}, {0x104cfd7c0?, 0x7976f6d52060?, 0x7976f6d183c0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/gopurs_runtime/runtime.go:400 +0x60 fp=0x7976f6d5bd00 sp=0x7976f6d5bcb0 pc=0x104b85860
+gopurs/output/Effect.init.func1.2.1({0x0?, 0x0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:53 +0x64 fp=0x7976f6d5bd70 sp=0x7976f6d5bd00 pc=0x104b998e4
+gopurs/output/Effect.BindE(0x4?, 0x7976f6d5bdd8, {0x0?, 0x0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:11 +0x50 fp=0x7976f6d5bd90 sp=0x7976f6d5bd70 pc=0x104b9a490
+gopurs/output/Effect.init.func1({0x7976f6d0a100?, 0x7976f6d0a0c0?, 0x7976f6d1e930?}, {0x104b42b88?, 0x104d08fb0?, 0x104d08618?}, {0x7976f6d5bea8?, 0x104bc4b70?, 0x0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Effect/Effect_ffi.go:57 +0x68 fp=0x7976f6d5be20 sp=0x7976f6d5bd90 pc=0x104b99748
+gopurs/output/gopurs_runtime.Apply2.func1({0x104b42bd0?, 0x104d44a84?, 0x0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/gopurs_runtime/runtime.go:442 +0x4c fp=0x7976f6d5be80 sp=0x7976f6d5be20 pc=0x104b869ac
+gopurs/output/gopurs_runtime.Apply({0x104bc992e, 0x5, 0x0}, {0x0?, 0x0?, 0x0?})
+	/Users/0x1/Documents/htdocs/gopurs-run/output/gopurs_runtime/runtime.go:400 +0x60 fp=0x7976f6d5bed0 sp=0x7976f6d5be80 pc=0x104b85860
+main.main()
+	/Users/0x1/Documents/htdocs/gopurs-run/output/Test.Main/main/main.go:18 +0xb0 fp=0x7976f6d5bf30 sp=0x7976f6d5bed0 pc=0x104bc92f0
+runtime.main()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:290 +0x2b4 fp=0x7976f6d5bfd0 sp=0x7976f6d5bf30 pc=0x104b07254
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6d5bfd0 sp=0x7976f6d5bfd0 pc=0x104b3f194
+
+goroutine 2 gp=0x7976f6bde780 m=nil [force gc (idle)]:
+runtime.gopark(0x0?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:462 +0xbc fp=0x7976f6c56f90 sp=0x7976f6c56f70 pc=0x104b3890c
+runtime.goparkunlock(...)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:468
+runtime.forcegchelper()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:375 +0xb4 fp=0x7976f6c56fd0 sp=0x7976f6c56f90 pc=0x104b07574
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6c56fd0 sp=0x7976f6c56fd0 pc=0x104b3f194
+created by runtime.init.7 in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:363 +0x24
+
+goroutine 17 gp=0x7976f6c843c0 m=nil [GC sweep wait]:
+runtime.gopark(0x1?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:462 +0xbc fp=0x7976f6c52770 sp=0x7976f6c52750 pc=0x104b3890c
+runtime.goparkunlock(...)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:468
+runtime.bgsweep(0x7976f6c90000)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgcsweep.go:324 +0x178 fp=0x7976f6c527b0 sp=0x7976f6c52770 pc=0x104af29c8
+runtime.gcenable.gowrap1()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:214 +0x20 fp=0x7976f6c527d0 sp=0x7976f6c527b0 pc=0x104ae4080
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6c527d0 sp=0x7976f6c527d0 pc=0x104b3f194
+created by runtime.gcenable in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:214 +0x6c
+
+goroutine 18 gp=0x7976f6c845a0 m=nil [GC scavenge wait]:
+runtime.gopark(0x10000?, 0x104bd40f8?, 0x0?, 0x0?, 0x0?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:462 +0xbc fp=0x7976f6c52f60 sp=0x7976f6c52f40 pc=0x104b3890c
+runtime.goparkunlock(...)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:468
+runtime.(*scavengerState).park(0x104d1e2e0)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgcscavenge.go:425 +0x5c fp=0x7976f6c52f90 sp=0x7976f6c52f60 pc=0x104af04dc
+runtime.bgscavenge(0x7976f6c90000)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgcscavenge.go:658 +0xac fp=0x7976f6c52fb0 sp=0x7976f6c52f90 pc=0x104af0a7c
+runtime.gcenable.gowrap2()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:215 +0x20 fp=0x7976f6c52fd0 sp=0x7976f6c52fb0 pc=0x104ae4040
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6c52fd0 sp=0x7976f6c52fd0 pc=0x104b3f194
+created by runtime.gcenable in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:215 +0xac
+
+goroutine 33 gp=0x7976f6d00000 m=nil [GOMAXPROCS updater (idle)]:
+runtime.gopark(0x0?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:462 +0xbc fp=0x7976f6d06770 sp=0x7976f6d06750 pc=0x104b3890c
+runtime.goparkunlock(...)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:468
+runtime.updateMaxProcsGoroutine()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:7095 +0xf4 fp=0x7976f6d067d0 sp=0x7976f6d06770 pc=0x104b15d44
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6d067d0 sp=0x7976f6d067d0 pc=0x104b3f194
+created by runtime.defaultGOMAXPROCSUpdateEnable in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:7083 +0x48
+
+goroutine 34 gp=0x7976f6d001e0 m=nil [finalizer wait]:
+runtime.gopark(0x8?, 0x104b41d6c?, 0xd8?, 0x65?, 0x104b07814?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:462 +0xbc fp=0x7976f6c56580 sp=0x7976f6c56560 pc=0x104b3890c
+runtime.runFinalizers()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mfinal.go:210 +0x100 fp=0x7976f6c567d0 sp=0x7976f6c56580 pc=0x104ae3150
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6c567d0 sp=0x7976f6c567d0 pc=0x104b3f194
+created by runtime.createfing in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mfinal.go:172 +0x78
+
+goroutine 35 gp=0x7976f6d003c0 m=nil [GC worker (idle)]:
+runtime.gopark(0x0?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:462 +0xbc fp=0x7976f6d06f20 sp=0x7976f6d06f00 pc=0x104b3890c
+runtime.gcBgMarkWorker(0x7976f6d0c0e0)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1791 +0xe0 fp=0x7976f6d06fb0 sp=0x7976f6d06f20 pc=0x104ae6860
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x20 fp=0x7976f6d06fd0 sp=0x7976f6d06fb0 pc=0x104ae6760
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6d06fd0 sp=0x7976f6d06fd0 pc=0x104b3f194
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x134
+
+goroutine 36 gp=0x7976f6d005a0 m=nil [GC worker (idle)]:
+runtime.gopark(0x0?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:462 +0xbc fp=0x7976f6d07720 sp=0x7976f6d07700 pc=0x104b3890c
+runtime.gcBgMarkWorker(0x7976f6d0c0e0)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1791 +0xe0 fp=0x7976f6d077b0 sp=0x7976f6d07720 pc=0x104ae6860
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x20 fp=0x7976f6d077d0 sp=0x7976f6d077b0 pc=0x104ae6760
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6d077d0 sp=0x7976f6d077d0 pc=0x104b3f194
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x134
+
+goroutine 37 gp=0x7976f6d00780 m=nil [GC worker (idle)]:
+runtime.gopark(0x0?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:462 +0xbc fp=0x7976f6d07f20 sp=0x7976f6d07f00 pc=0x104b3890c
+runtime.gcBgMarkWorker(0x7976f6d0c0e0)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1791 +0xe0 fp=0x7976f6d07fb0 sp=0x7976f6d07f20 pc=0x104ae6860
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x20 fp=0x7976f6d07fd0 sp=0x7976f6d07fb0 pc=0x104ae6760
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6d07fd0 sp=0x7976f6d07fd0 pc=0x104b3f194
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x134
+
+goroutine 38 gp=0x7976f6d00960 m=nil [GC worker (idle)]:
+runtime.gopark(0x0?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:462 +0xbc fp=0x7976f6d08720 sp=0x7976f6d08700 pc=0x104b3890c
+runtime.gcBgMarkWorker(0x7976f6d0c0e0)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1791 +0xe0 fp=0x7976f6d087b0 sp=0x7976f6d08720 pc=0x104ae6860
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x20 fp=0x7976f6d087d0 sp=0x7976f6d087b0 pc=0x104ae6760
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6d087d0 sp=0x7976f6d087d0 pc=0x104b3f194
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x134
+
+goroutine 39 gp=0x7976f6d00b40 m=nil [GC worker (idle)]:
+runtime.gopark(0x0?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:462 +0xbc fp=0x7976f6d08f20 sp=0x7976f6d08f00 pc=0x104b3890c
+runtime.gcBgMarkWorker(0x7976f6d0c0e0)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1791 +0xe0 fp=0x7976f6d08fb0 sp=0x7976f6d08f20 pc=0x104ae6860
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x20 fp=0x7976f6d08fd0 sp=0x7976f6d08fb0 pc=0x104ae6760
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6d08fd0 sp=0x7976f6d08fd0 pc=0x104b3f194
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x134
+
+goroutine 40 gp=0x7976f6d00d20 m=nil [GC worker (idle)]:
+runtime.gopark(0x0?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:462 +0xbc fp=0x7976f6d09720 sp=0x7976f6d09700 pc=0x104b3890c
+runtime.gcBgMarkWorker(0x7976f6d0c0e0)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1791 +0xe0 fp=0x7976f6d097b0 sp=0x7976f6d09720 pc=0x104ae6860
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x20 fp=0x7976f6d097d0 sp=0x7976f6d097b0 pc=0x104ae6760
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6d097d0 sp=0x7976f6d097d0 pc=0x104b3f194
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x134
+
+goroutine 41 gp=0x7976f6d00f00 m=nil [GC worker (idle)]:
+runtime.gopark(0x0?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:462 +0xbc fp=0x7976f6d09f20 sp=0x7976f6d09f00 pc=0x104b3890c
+runtime.gcBgMarkWorker(0x7976f6d0c0e0)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1791 +0xe0 fp=0x7976f6d09fb0 sp=0x7976f6d09f20 pc=0x104ae6860
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x20 fp=0x7976f6d09fd0 sp=0x7976f6d09fb0 pc=0x104ae6760
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6d09fd0 sp=0x7976f6d09fd0 pc=0x104b3f194
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x134
+
+goroutine 42 gp=0x7976f6d010e0 m=nil [GC worker (idle)]:
+runtime.gopark(0x21cd576fb52e?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:462 +0xbc fp=0x7976f6d02720 sp=0x7976f6d02700 pc=0x104b3890c
+runtime.gcBgMarkWorker(0x7976f6d0c0e0)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1791 +0xe0 fp=0x7976f6d027b0 sp=0x7976f6d02720 pc=0x104ae6860
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x20 fp=0x7976f6d027d0 sp=0x7976f6d027b0 pc=0x104ae6760
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6d027d0 sp=0x7976f6d027d0 pc=0x104b3f194
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x134
+
+goroutine 43 gp=0x7976f6d012c0 m=nil [GC worker (idle)]:
+runtime.gopark(0x21cd576de4d3?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:462 +0xbc fp=0x7976f6d02f20 sp=0x7976f6d02f00 pc=0x104b3890c
+runtime.gcBgMarkWorker(0x7976f6d0c0e0)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1791 +0xe0 fp=0x7976f6d02fb0 sp=0x7976f6d02f20 pc=0x104ae6860
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x20 fp=0x7976f6d02fd0 sp=0x7976f6d02fb0 pc=0x104ae6760
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6d02fd0 sp=0x7976f6d02fd0 pc=0x104b3f194
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x134
+
+goroutine 44 gp=0x7976f6d014a0 m=nil [GC worker (idle)]:
+runtime.gopark(0x21cd60f867dd?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:462 +0xbc fp=0x7976f6d03720 sp=0x7976f6d03700 pc=0x104b3890c
+runtime.gcBgMarkWorker(0x7976f6d0c0e0)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1791 +0xe0 fp=0x7976f6d037b0 sp=0x7976f6d03720 pc=0x104ae6860
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x20 fp=0x7976f6d037d0 sp=0x7976f6d037b0 pc=0x104ae6760
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6d037d0 sp=0x7976f6d037d0 pc=0x104b3f194
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x134
+
+goroutine 45 gp=0x7976f6d01680 m=nil [GC worker (idle)]:
+runtime.gopark(0x104d459e0?, 0x1?, 0x59?, 0xeb?, 0x0?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:462 +0xbc fp=0x7976f6d03f20 sp=0x7976f6d03f00 pc=0x104b3890c
+runtime.gcBgMarkWorker(0x7976f6d0c0e0)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1791 +0xe0 fp=0x7976f6d03fb0 sp=0x7976f6d03f20 pc=0x104ae6860
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x20 fp=0x7976f6d03fd0 sp=0x7976f6d03fb0 pc=0x104ae6760
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6d03fd0 sp=0x7976f6d03fd0 pc=0x104b3f194
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x134
+
+goroutine 46 gp=0x7976f6d01860 m=nil [GC worker (idle)]:
+runtime.gopark(0x21cd60f8bf6e?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:462 +0xbc fp=0x7976f6d04720 sp=0x7976f6d04700 pc=0x104b3890c
+runtime.gcBgMarkWorker(0x7976f6d0c0e0)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1791 +0xe0 fp=0x7976f6d047b0 sp=0x7976f6d04720 pc=0x104ae6860
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x20 fp=0x7976f6d047d0 sp=0x7976f6d047b0 pc=0x104ae6760
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6d047d0 sp=0x7976f6d047d0 pc=0x104b3f194
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x134
+
+goroutine 47 gp=0x7976f6d01a40 m=nil [GC worker (idle)]:
+runtime.gopark(0x104d459e0?, 0x1?, 0x60?, 0xcd?, 0x0?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:462 +0xbc fp=0x7976f6d04f20 sp=0x7976f6d04f00 pc=0x104b3890c
+runtime.gcBgMarkWorker(0x7976f6d0c0e0)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1791 +0xe0 fp=0x7976f6d04fb0 sp=0x7976f6d04f20 pc=0x104ae6860
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x20 fp=0x7976f6d04fd0 sp=0x7976f6d04fb0 pc=0x104ae6760
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6d04fd0 sp=0x7976f6d04fd0 pc=0x104b3f194
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x134
+
+goroutine 48 gp=0x7976f6d01c20 m=nil [GC worker (idle)]:
+runtime.gopark(0x21cd576fba10?, 0x0?, 0x0?, 0x0?, 0x0?)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/proc.go:462 +0xbc fp=0x7976f6d05720 sp=0x7976f6d05700 pc=0x104b3890c
+runtime.gcBgMarkWorker(0x7976f6d0c0e0)
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1791 +0xe0 fp=0x7976f6d057b0 sp=0x7976f6d05720 pc=0x104ae6860
+runtime.gcBgMarkStartWorkers.gowrap1()
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x20 fp=0x7976f6d057d0 sp=0x7976f6d057b0 pc=0x104ae6760
+runtime.goexit({})
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/asm_arm64.s:1447 +0x4 fp=0x7976f6d057d0 sp=0x7976f6d057d0 pc=0x104b3f194
+created by runtime.gcBgMarkStartWorkers in goroutine 1
+	/opt/homebrew/Cellar/go/1.26.5/libexec/src/runtime/mgc.go:1695 +0x134
