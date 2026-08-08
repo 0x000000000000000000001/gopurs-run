@@ -93,7 +93,7 @@ dinnerTime = do
   isThereMore <- eat Pizza
   if isThereMore then dinnerTime
   else do
-    bill <- checkPlease
+    _ <- checkPlease
     speak "Outrageous!"
 
 program2 :: forall r. Run (EFFECT + DINNER + r) Unit

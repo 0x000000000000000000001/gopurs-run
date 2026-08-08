@@ -45,7 +45,7 @@ program a = do
 
 program2 :: forall r. Run (STATE Int + EFFECT + r) Int
 program2 = do
-  for_ (Array.range 1 100000) \n -> do
+  for_ (Array.range 1 100000) \_ -> do
     modify (_ + 1)
   liftEffect $ log "Done"
   get
@@ -83,7 +83,7 @@ yesProgram = do
      . Run MyEffects Boolean
     -> Run MyEffects a
     -> Run MyEffects Unit
-  whileM_ mb ma = flip tailRecM unit \a ->
+  whileM_ mb ma = flip tailRecM unit \_ ->
     mb >>= if _ then ma $> Loop unit else pure $ Done unit
 
 chooseProgram :: forall r. Run (CHOOSE + EFFECT + r) Int
@@ -144,9 +144,9 @@ main = do
   logShow (as :: Array Int)
 
   let
-    tco1 = stateTCO # runState 0
-    tco2 = writerTCO # runWriter
-    tco3 = readerTCO # runReader unit
+    _ = stateTCO # runState 0
+    _ = writerTCO # runWriter
+    _ = readerTCO # runReader unit
 
   Examples.main >>= logShow
   Examples.mainSleep
