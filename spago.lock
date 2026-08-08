@@ -731,6 +731,9 @@
       "foreign-object": {
         "path": "../gopurs-foreign-object"
       },
+      "free": {
+        "path": "../gopurs-free"
+      },
       "functions": {
         "path": "../gopurs-functions"
       },
@@ -1047,18 +1050,13 @@
       ]
     },
     "free": {
-      "type": "registry",
-      "version": "7.1.0",
-      "integrity": "sha256-tUBInfUpRQEw4u94GWcYW7EYdmSdDHSRn88a+C0eltU=",
+      "type": "local",
+      "path": "../gopurs-free",
       "dependencies": [
         "catenable-lists",
         "control",
-        "distributive",
         "either",
-        "exists",
         "foldable-traversable",
-        "invariant",
-        "lazy",
         "maybe",
         "prelude",
         "tailrec",

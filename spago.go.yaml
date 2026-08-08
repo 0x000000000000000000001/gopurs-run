@@ -66,6 +66,8 @@ workspace:
       path: "../gopurs-foreign"
     foreign-object:
       path: "../gopurs-foreign-object"
+    free:
+      path: "../gopurs-free"
     functions:
       path: "../gopurs-functions"
     integers:
