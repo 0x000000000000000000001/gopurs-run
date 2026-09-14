@@ -1,5 +1,14 @@
 # gopurs-run
 
+## Local Go development
+
+This checkout is part of the gopurs library family. Use the
+[local Go development guide](../gopurs/README.md#develop-one-library-locally)
+for toolchain setup, sibling dependencies, Spago configuration and Go commands.
+The existing npm, Bower and Dhall commands below retain their JavaScript or
+upstream roles.
+
+
 [![Latest release](http://img.shields.io/github/release/natefaubion/purescript-run.svg)](https://github.com/natefaubion/purescript-run/releases)
 [![Build status](https://github.com/natefaubion/purescript-run/workflows/CI/badge.svg?branch=master)](https://github.com/natefaubion/purescript-run/actions?query=workflow%3ACI+branch%3Amaster)
 
